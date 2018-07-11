@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.LBDC"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name"
+            android:name="com.project.LBDC.Splash" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity >
+          <activity
+            android:label="@string/app_name"
+            android:name="com.project.LBDC.LBDCActivity" >
+            <intent-filter >
+                <action android:name="com.project.LBDC.LBDCActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity >
+         
+        <activity
+            android:label="location"
+            android:name="com.project.LBDC.MidForm" >
+            <intent-filter >
+                <action android:name="com.project.LBDC.MidForm" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity >
+         <activity
+            android:label="@string/app_name"
+            android:name="com.project.LBDC.register" >
+            <intent-filter >
+                <action android:name="com.project.LBDC.register" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity >
+        
+             
+             <activity
+            android:label="@string/app_name"
+            android:name="com.project.LBDC.ProfileActivity" >
+            <intent-filter >
+                <action android:name="com.project.LBDC.ProfileActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity >
+        
+                    <activity
+            android:label="@string/app_name"
+            android:name="com.project.LBDC.ServerInterface" >
+            <intent-filter >
+                <action android:name="com.project.LBDC.ServerInterface" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity >
+        
+                         <activity
+            android:label="@string/app_name"
+            android:name="com.project.LBDC.Utils" >
+            <intent-filter >
+                <action android:name="com.project.LBDC.Utils" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+                 <activity
+            android:label="@string/app_name"
+            android:name="com.project.LBDC.PropertyService" >
+            <intent-filter >
+                <action android:name="com.project.LBDC.PropertyService" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity >
+        
+                     
+                      <activity
+            android:label="@string/app_name"
+            android:name="com.project.LBDC.AndroidTabLayoutActivity" >
+            <intent-filter >
+                <action android:name="com.project.LBDC.AndroidTabLayoutActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity >
+                     
+             <!--  Songs Activity -->
+        <activity android:name=".SongsActivity" />
+        
+        <!--  Videos Activity -->
+        <activity android:name=".VideosActivity" />
+        
+        <!--  Photos Activity -->
+        <activity android:name=".PhotosActivity" />
+        </activity >
+             
+    </application>
+
+</manifest>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, LBDCActivity!</string>
+    <string name="app_name">LBDC</string>
+    <string name="uname">User name:</string>
+    <string-array name="Location">
+        <item>powai</item>
+        <item>Colaba</item>
+        <item>Fort</item>
+		<item> Churchgate</item>
+		<item> Marine-Lines</item>
+		<item> Kala-Ghoda</item>
+		<item> V.T Station</item>
+		<item> Lower Parel</item>
+		<item> Mazgaon</item>
+		<item> Mumbai Central</item>
+		<item> Tardeo</item>
+		<item> Charni-Road</item>
+		<item> Grant Road</item>
+		<item> Nariman Point</item>
+        
+        </string-array>
+        <string-array name="types_of_shops">
+        <item>Hotel</item>
+        <item>Shop</item>
+        <item>Cinema</item>
+        <item>Services</item>
+    </string-array>
+    <string name="agree">I agree to the terms &amp; conditions.</string>
+
+</resources>
